@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #fff;
+}
+
+
+body {
+    background-image: url('gold2.png'); 
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+.header-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.header-container h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000; 
+}
+
+.header-container p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+#temple.templeall {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap; 
+    text-align: center; 
+    padding-bottom: 40px; 
+}
+
+
+#temple.templeall #watthai.wat {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    vertical-align: top;
+    margin: 0 10px; 
+}
+
+
+#temple.templeall #watthai.wat #imagewatthai.imagewatthai2 {
+    width: 300px;
+    height: 300px;
+    object-fit: contain; 
+    display: block;
+}
+
+
+#temple.templeall #watthai.wat .caption {
+    position: absolute;
+    bottom: 40px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff; 
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7); 
+}
+
+
+.dots-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
